@@ -1,27 +1,183 @@
-/* 
- основной цвет страницы #FFFFFF; 
- цвет секции Наша команда #F5F4FA;
- цвет подвала #2F303A;
- цвет логотипа #2196F3;
- цвет заголовков #212121;
- цвет абзацев #757575;
-*/
+:root {
+  --title-text-color: #212121;
+  --akcent-color: #2196f3;
+  --text-color: #757575;
+  --logo-color: #000000;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
 /* Шапка сайта */
 .logo {
-  color: #000000;
+  color: var(--logo-color);
+  font-family: "Raleway";
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
 .first-logo {
-  color: #2196f3;
+  color: var(--akcent-color);
+  font-family: "Raleway";
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
 .site-nav .list {
-  color: #000000;
-}
+  color: var(--logo-color);
 
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
 .site-nav .list:hover,
 .site-nav .list:focus {
-  color: #2196f3;
+  color: var(--akcent-color);
+}
+.contact-nav .link {
+  color: var(--text-color);
+
+  font-style: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+.contact-nav .link:hover,
+.contact-nav .list:focus {
+  color: var(--akcent-color);
 }
 
-.contakt-nav .list {
-  color: #757575;
+/* секции сайта */
+.section-hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-title {
+  color: var(--title-text-color);
+
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.features-titie {
+  color: var(--title-text-color);
+
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.team-title {
+  color: var(--title-text-color);
+
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19x;
+  letter-spacing: 0.03em;
+}
+.text {
+  color: var(--text-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  color: var(--text-color);
+
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
+/* Подвал сайта */
+.adress {
+  color: var(--text-color);
+
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
+.adress:hover,
+.adress:focus {
+  color: var(--akcent-color);
+}
+.link {
+  color: var(--text-color);
+
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
+.link:hover,
+.list:focus {
+  color: var(--akcent-color);
+}
+
+/* Портфолио */
+
+.nav-btn .btn {
+  background-color: #f5f4fa;
+  color: var(--text-color);
+
+  font-style: 400;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  letter-spacing: 0.03em;
+}
+.nav-btn .btn:hover,
+.nav-btn .btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.portfolio-title {
+  color: var(--title-text-color);
+
+  font-style: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--text-color);
+
+  font-style: 400;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 88;
+  letter-spacing: 0.03em;
 }
