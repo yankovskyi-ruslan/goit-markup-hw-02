@@ -1,0 +1,27 @@
+/* 
+ основной цвет страницы #FFFFFF; 
+ цвет секции Наша команда #F5F4FA;
+ цвет подвала #2F303A;
+ цвет логотипа #2196F3;
+ цвет заголовков #212121;
+ цвет абзацев #757575;
+*/
+/* Шапка сайта */
+.logo {
+  color: #000000;
+}
+.first-logo {
+  color: #2196f3;
+}
+.site-nav .list {
+  color: #000000;
+}
+
+.site-nav .list:hover,
+.site-nav .list:focus {
+  color: #2196f3;
+}
+
+.contakt-nav .list {
+  color: #757575;
+}
