@@ -2,15 +2,21 @@
   --title-text-color: #212121;
   --akcent-color: #2196f3;
   --text-color: #757575;
-  --logo-color: #000000;
+  --bgc-main: #ffffff;
+  --bgc-secondary: #2f303a;
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
 }
 
 .body {
   font-family: Roboto, sans-serif;
+  color: var(--bgc-main);
 }
 /* Шапка сайта */
-.logo {
-  color: var(--logo-color);
+.header-logo,
+.footer-logo {
+  color: var(--logo-header-color);
+
   font-family: "Raleway";
   font-style: 400;
   font-weight: 700;
@@ -18,6 +24,7 @@
   line-height: 1, 19;
   letter-spacing: 0.03em;
 }
+
 .first-logo {
   color: var(--akcent-color);
   font-family: "Raleway";
@@ -118,6 +125,12 @@
   letter-spacing: 0.03em;
 }
 /* Подвал сайта */
+.footer {
+  background-color: var(--bg-);
+}
+.footer-logo {
+  color: var(--logo-footer-color);
+}
 .adress {
   color: var(--text-color);
 
