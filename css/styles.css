@@ -1,7 +1,7 @@
 :root {
   --title-text-color: #212121;
-  --akcent-color: #2196f3;
   --text-color: #757575;
+  --akcent-color: #2196f3;
   --bgc-secondary: #2f303a;
   --logo-header-color: #000000;
   --logo-footer-color: #ffffff;
@@ -21,6 +21,7 @@
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .first-logo {
@@ -38,6 +39,7 @@
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -45,6 +47,16 @@
 }
 .nav-item--active {
   color: var(--akcent-color);
+}
+.site-list,
+.contacts,
+.features-list,
+.specialization-list,
+.team-list,
+.adds-list,
+.filters-list,
+.portfolio-list {
+  list-style-type: none;
 }
 
 .link-mail,
@@ -55,6 +67,7 @@
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .link-mail:hover,
 .link-tel:hover,
@@ -117,6 +130,9 @@
   line-height: 1, 17;
   letter-spacing: 0.03em;
 }
+.team {
+  background-color: #f5f4fa;
+}
 .team-txt {
   color: var(--text-color);
 
@@ -139,6 +155,7 @@
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .adds-link:hover,
 .adds-link:focus {
@@ -151,6 +168,7 @@
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .adds-contact:hover,
 .adds-contact:focus {
@@ -162,6 +180,7 @@
 .filters-btn {
   background-color: var(--filter-button);
   color: var(var(--title-text-color));
+  text-decoration: none;
 
   font-style: 400;
   font-weight: 500;
@@ -173,6 +192,10 @@
 .filters-btn:focus {
   background-color: var(--akcent-color);
   color: var(--logo-footer-color);
+}
+.link {
+  text-decoration: none;
+  color: var(--text-color);
 }
 .portfolio-title {
   color: var(--title-text-color);
