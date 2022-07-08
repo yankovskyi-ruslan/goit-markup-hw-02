@@ -5,7 +5,7 @@
   --bgc-secondary: #2f303a;
   --logo-header-color: #000000;
   --logo-footer-color: #ffffff;
-  --filter-button: #F5F4FA;
+  --filter-button: #f5f4fa;
 }
 
 .body {
@@ -87,7 +87,8 @@
   line-height: 1, 88;
   letter-spacing: 0.06em;
 }
-.hero-btn, .filters-btn{
+.hero-btn,
+.filters-btn {
   cursor: pointer;
 }
 
@@ -159,7 +160,7 @@
 /* Портфолио */
 
 .filters-btn {
-  background-color: var(--filter-button)
+  background-color: var(--filter-button);
   color: var(var(--title-text-color));
 
   font-style: 400;
@@ -171,7 +172,7 @@
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: var(--akcent-color);
-  color: var(--logo-footer-color)
+  color: var(--logo-footer-color);
 }
 .portfolio-title {
   color: var(--title-text-color);
