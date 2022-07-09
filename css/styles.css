@@ -19,7 +19,7 @@
 
   font-family: "Raleway";
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -28,7 +28,7 @@
   color: var(--akcent-color);
   font-family: "Raleway";
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 /* Navigation */
@@ -37,7 +37,7 @@
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -47,6 +47,12 @@
 }
 .nav-item--active {
   color: var(--akcent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-list,
 .contacts,
@@ -65,7 +71,7 @@
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -86,7 +92,7 @@
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -97,8 +103,12 @@
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   letter-spacing: 0.06em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 .hero-btn,
 .filters-btn {
@@ -109,7 +119,7 @@
 .features-titie {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -118,7 +128,7 @@
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -127,17 +137,27 @@
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* Team section */
 .team {
   background-color: #f5f4fa;
+}
+
+.team-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
 }
 .team-txt {
   color: var(--text-color);
 
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -153,7 +173,8 @@
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  font-style: normal;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -166,7 +187,8 @@
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  font-style: normal;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -185,7 +207,7 @@
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   letter-spacing: 0.03em;
 }
 .filters-btn:hover,
@@ -211,6 +233,6 @@
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
